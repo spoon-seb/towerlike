@@ -679,6 +679,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestRoom_Small
       objectReference: {fileID: 0}
+    - target: {fileID: 5105287524622789484, guid: 8e1151ce32a839a4eacd079c3a447bb1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5105287524622789484, guid: 8e1151ce32a839a4eacd079c3a447bb1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.52
+      objectReference: {fileID: 0}
     - target: {fileID: 5145481001792299337, guid: 8e1151ce32a839a4eacd079c3a447bb1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.78
