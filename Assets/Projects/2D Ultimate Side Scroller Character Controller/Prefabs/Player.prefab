@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.703375, y: 18.11361, z: -20.168123}
+  m_LocalPosition: {x: -17.703375, y: 18.11361, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -266,7 +266,7 @@ Transform:
   m_GameObject: {fileID: 926845124}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.703375, y: -15.863609, z: 10.168122}
+  m_LocalPosition: {x: 17.703375, y: -15.863609, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -300,7 +300,7 @@ Transform:
   m_GameObject: {fileID: 1482001337}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.703375, y: 18.11361, z: -20.168123}
+  m_LocalPosition: {x: -17.703375, y: 18.11361, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -320,12 +320,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Priority:
-    Enabled: 0
-    m_Value: 0
+    Enabled: 1
+    m_Value: 10
   OutputChannel: 1
   StandbyUpdate: 2
-  m_StreamingVersion: 20170927
-  m_LegacyPriority: 10
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 3213259104454701875}
   m_Lens:
@@ -820,7 +820,7 @@ MonoBehaviour:
             outWeight: 0
           - serializedVersion: 3
             time: 1
-            value: 1
+            value: 0.802378
             inSlope: 0
             outSlope: 0
             tangentMode: 0
@@ -855,7 +855,7 @@ MonoBehaviour:
             outWeight: 0
           - serializedVersion: 3
             time: 1
-            value: 1
+            value: 0.80000305
             inSlope: 0
             outSlope: 0
             tangentMode: 0
@@ -865,7 +865,7 @@ MonoBehaviour:
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 0
-        jumpTime: 0.4
+        jumpTime: 0.3
         jumpVelocityCurve:
           serializedVersion: 2
           m_Curve: []
@@ -890,7 +890,7 @@ MonoBehaviour:
             outWeight: 0
           - serializedVersion: 3
             time: 1
-            value: 1
+            value: 0.8047638
             inSlope: 0
             outSlope: 0
             tangentMode: 0
@@ -900,7 +900,7 @@ MonoBehaviour:
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 0
-        jumpTime: 0.3
+        jumpTime: 0.2
         jumpVelocityCurve:
           serializedVersion: 2
           m_Curve: []
